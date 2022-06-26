@@ -1,0 +1,82 @@
+.container {
+        width: 70%;
+        max-height: 200vh;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        margin-top: 15px;
+}
+
+.container h5 {
+        padding: 15px;
+        color: rgb(72, 72, 72);
+
+}
+
+.container .addBtn {
+        margin: 10px;
+}
+
+hr {
+        border: rgb(243, 243, 243) solid 0.1px;
+        margin-top: 30px;
+}
+
+.tasks .clearBtn {
+        background-color: black;
+        margin: 10px;
+}
+
+.inputTasks {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 45px;
+        margin-left: 10px;
+        width: 95%;
+
+}
+
+
+/* JavaScript Classes */
+
+.taskLi
+{
+
+        width: 95%;
+        margin-left: 10px;
+}
+
+.task {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: all 1s ease;
+        margin-top: 15px;
+}
+
+
+.task li {
+        flex: 1;
+} 
+
+.taskItem {
+        padding: 5px 15px;
+}
+
+.deletBtn {
+        background-color: white;
+        border: 2px solid #26a69a;
+        border-radius: 8px;
+        color: black;
+        padding: 15px 23px;
+        display: inline-block;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        /* width: 70px; */
+}
+
+.deletBtn:hover
+{
+        background-color: #26a69a;
+        color: white;
+
+}
+
